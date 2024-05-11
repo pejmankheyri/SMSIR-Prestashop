@@ -11,70 +11,70 @@
 </p>
 <div dir="rtl">
 
-# ارسال پیامک به مشتریان در سیستم مدیریت محتوای پرستاشاپ
+# Sending SMS to customers in the Prestashop content management system
 
- یک افزونه کاربردی برای سیستم مدیریت محتوای رایگان پرستاشاپ می باشد که شما را قادر می سازد تا براحتی اقدام به اطلاع رسانی از طریق پیامک به کاربرانتان کنید.
+ It is a practical add-on for PrestaShop's free content management system that enables you to easily notify your users via SMS.
 
 
-> [نصب با آپلود فایل](https://github.com/pejmankheyri/SMSIR-Prestashop#%D9%86%D8%B5%D8%A8-%D8%A8%D8%A7-%D8%A2%D9%BE%D9%84%D9%88%D8%AF-%D9%81%D8%A7%DB%8C%D9%84)
+> [Install by uploading a file](https://github.com/pejmankheyri/SMSIR-Prestashop#%D9%86%D8%B5%D8%A8-%D8%A8%D8%A7-%D8%A2%D9%BE%D9%84%D9%88%D8%AF-%D9%81%D8%A7%DB%8C%D9%84)
 > 
-> [نصب از منوی افزونه ها](https://github.com/pejmankheyri/SMSIR-Prestashop#%D9%86%D8%B5%D8%A8-%D8%A7%D8%B2-%D9%85%D9%86%D9%88%DB%8C-%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87-%D9%87%D8%A7)
+> [Install from the plugins menu](https://github.com/pejmankheyri/SMSIR-Prestashop#%D9%86%D8%B5%D8%A8-%D8%A7%D8%B2-%D9%85%D9%86%D9%88%DB%8C-%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87-%D9%87%D8%A7)
 > 
-> [امکانات](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%A7%D9%85%DA%A9%D8%A7%D9%86%D8%A7%D8%AA)
+> [Features](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%A7%D9%85%DA%A9%D8%A7%D9%86%D8%A7%D8%AA)
 > 
-> [تنظیمات](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+> [Settings](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 > 
-> [کمک به توسعه](https://github.com/pejmankheyri/SMSIR-Prestashop#%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D8%AA%D9%88%D8%B3%D8%B9%D9%87)
+> [Development Assistance](https://github.com/pejmankheyri/SMSIR-Prestashop#%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D8%AA%D9%88%D8%B3%D8%B9%D9%87)
 > 
-> [لایسنس](https://github.com/pejmankheyri/SMSIR-Prestashop#%D9%84%D8%A7%DB%8C%D8%B3%D9%86%D8%B3)
+> [License](https://github.com/pejmankheyri/SMSIR-Prestashop#%D9%84%D8%A7%DB%8C%D8%B3%D9%86%D8%B3)
 > 
-> [تصاویر افزونه](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1-%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87)
+> [Plugin Images](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1-%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87)
 
-## نصب با آپلود فایل
+## Install by uploading a file
 
-* پوشه `SMSIRModule` را در مسیر `/modules/` کپی کنید.
-* افزونه را از طریق منوی `افزونه ها` در پرستاشاپ فعال کنید.
-* [تنظیمات افزونه را در بخش `تنظیمات` ارسال پیامک انجام دهید.](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+* Copy `SMSIRModule` folder to `/modules/` path.
+* Activate the plugin through the `Plugins` menu in Prestashop.
+* [Configure the plugin settings in the `settings` section.](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 
-## نصب از منوی افزونه ها
+## Install from the plugins menu
 
-* وارد منوی افزونه های پرستاشاپ شوید.
-* گزینه `آپلود ماژول` را در بالای صفحه انتخاب کنید.
-* پک افزونه را از بالا بخش `code` قسمت `Download ZIP` دانلود کنید.
-* با انتخاب پک افزونه دانلود شده نصب آن را انجام دهید.
-* [تنظیمات افزونه را انجام دهید.](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+* Enter the Prestashop plugins menu.
+* Select the `upload module` option at the top of the page.
+* Download the plugin pack from the `code` section in the `Download ZIP` section above.
+* Select the downloaded plugin pack and install it.
+* [Configure the plugin.](https://github.com/pejmankheyri/SMSIR-Prestashop#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 
-## امکانات
+## Features
 
-* ارسال پیامک به مشتریان خاص
-* ارسال پیامک به همه مشتریان
-* ارسال پیامک به همه مخاطبین باشگاه مشتریان پنل sms.ir
-* ارسال پیامک هنگام ایجاد حساب کاربری جدید برای مدیر
-* ارسال پیامک هنگام ایجاد حساب کاربری جدید برای کاربر
-* ارسال پیامک هنگام ثبت سفارش جدید برای مدیر
-* ارسال پیامک برای ثبت سفارش جدید برای کاربر
-* ارسال پیامک هنگام تغییر وضعیت سفارش برای کاربر
+* Send SMS to specific customers
+* Send SMS to all customers
+* Send SMS to all contacts of sms.ir customer club
+* Send SMS when creating a new user account for the administrator
+* Send SMS when creating a new account for the user
+* Send SMS when registering a new order to the manager
+* Send SMS to register a new order for the user
+* Send SMS to the user when the order status changes
 
-## تنظیمات
+## Settings
 
-* تنظیمات اصلی افزونه شامل جدول زیر می باشد:
+* The main settings of the plugin include the following table:
 
-    | تنظیمات | توضیح |
+    | Settings | Description |
     | ------ | ------ |
-    | لینک وب سرویس | لینک وب سرویسی که پنل ارسال پیامک از آن استفاده می کند (https://ws.sms.ir/) |
-    | کلید وب سرویس | کلید وب سرویس پنل پیامک sms.ir |
-    | کد امنیتی | کد امنیتی پنل پیامک sms.ir |
-    | شماره ارسال کننده | شماره ارسال کننده پنل پیامک sms.ir |
-    | ارسال از طریق باشگاه مشتریان | باید ماژول باشگاه مشتریان خریداری شود و سپس ارسال از آن طریق انجام می شود |
-    | شماره مدیر فروشگاه | برای ارسال پیامک ها به مدیر فروشگاه |
+    | Web service link | The web service link used by the SMS sending panel (https://ws.sms.ir/) |
+    | Web service key | SMS panel web service key sms.ir |
+    | Security code | SMS panel security code sms.ir |
+    | Sender number | SMS panel sender number sms.ir |
+    | Send through customer club | The customer club module must be purchased and then shipping is done through it |
+    | Store manager number | To send SMS to the store manager |
 
-## کمک به توسعه
+## Development Assistance
 
-از Pull request ها استقبال می کنیم.
+We welcome pull requests.
 
-برای تغییرات عمده ، لطفاً ابتدا یک issue را باز کنید تا در مورد آنچه می خواهید تغییر دهیم و بحث کنیم.
+For major changes, please open an issue first so we can discuss what you want to change.
 
-## لایسنس
+## License
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpejmankheyri%2FSMSIR-Prestashop.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpejmankheyri%2FSMSIR-Prestashop?ref=badge_large)
 
@@ -82,7 +82,7 @@
 
 <div dir="rtl">
 
-## تصاویر افزونه
+## Plugin Images
 
 <img src="https://user-images.githubusercontent.com/3329008/112358884-59b3e900-8cee-11eb-8cc5-96a01b83f628.png" />
 
